@@ -33,6 +33,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -47,6 +48,7 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
@@ -104,6 +106,7 @@
         <child id="1145195647826100986" name="content" index="356KY_" />
       </concept>
       <concept id="1145195647826084325" name="com.dslfoundry.plaintextgen.structure.VerticalLines" flags="ng" index="356WMU" />
+      <concept id="2847858303663881928" name="com.dslfoundry.plaintextgen.structure.tab" flags="ng" index="373pV1" />
       <concept id="7214912913997260680" name="com.dslfoundry.plaintextgen.structure.IVerticalGroup" flags="ngI" index="383Yap">
         <child id="7214912913997260696" name="lines" index="383Ya9" />
       </concept>
@@ -270,26 +273,74 @@
           </node>
           <node concept="356sEQ" id="7FiuozLtmPF" role="383Ya9">
             <property role="333NGx" value="    " />
-            <node concept="356sEQ" id="7FiuozLKi8n" role="383Ya9">
-              <property role="333NGx" value="  " />
-              <node concept="356sEK" id="7FiuozLKhYD" role="383Ya9">
-                <node concept="2EixSi" id="7FiuozLKhYF" role="2EinRH" />
-                <node concept="356sEF" id="7FiuozLKhYX" role="356sEH">
-                  <property role="TrG5h" value="self.contextStateMachine.envComp.print()" />
-                </node>
-              </node>
-              <node concept="356sEK" id="7FiuozLKi89" role="383Ya9">
-                <node concept="356sEF" id="7FiuozLKi8a" role="356sEH">
-                  <property role="TrG5h" value="print(&quot;Printing::do: medialevel =&quot; + str(self.contextStateMachine.envComp.mediaLevel)" />
-                </node>
-                <node concept="2EixSi" id="7FiuozLKi8b" role="2EinRH" />
-              </node>
-            </node>
             <node concept="356sEK" id="7FiuozLtmPB" role="383Ya9">
-              <node concept="356sEF" id="7FiuozLtmPC" role="356sEH">
-                <property role="TrG5h" value="pass" />
+              <node concept="356WMU" id="7FiuozLLpsI" role="356sEH">
+                <node concept="356sEK" id="7FiuozLLpsJ" role="383Ya9">
+                  <node concept="2EixSi" id="7FiuozLLpsM" role="2EinRH" />
+                </node>
+                <node concept="356WMU" id="7FiuozLLpTp" role="383Ya9">
+                  <node concept="356sEK" id="7FiuozLLpsN" role="383Ya9">
+                    <node concept="356sEF" id="7FiuozLLpsK" role="356sEH">
+                      <property role="TrG5h" value="self.contextStateMachine.envComp.print()" />
+                    </node>
+                    <node concept="2EixSi" id="7FiuozLLpsQ" role="2EinRH" />
+                  </node>
+                  <node concept="356sEK" id="7FiuozLLq2D" role="383Ya9">
+                    <node concept="356sEF" id="7FiuozLLpsO" role="356sEH">
+                      <property role="TrG5h" value="print(&quot;Printing::do: mediaLevel=&quot; + str(self.contextStateMachine.envComp.mediaLevel))" />
+                    </node>
+                    <node concept="2EixSi" id="7FiuozLLq2F" role="2EinRH" />
+                  </node>
+                  <node concept="1W57fq" id="7FiuozLLqbZ" role="lGtFl">
+                    <node concept="3IZrLx" id="7FiuozLLqc0" role="3IZSJc">
+                      <node concept="3clFbS" id="7FiuozLLqc1" role="2VODD2">
+                        <node concept="3clFbF" id="7FiuozLLqp_" role="3cqZAp">
+                          <node concept="1Wc70l" id="7FiuozLLzsl" role="3clFbG">
+                            <node concept="17R0WA" id="7FiuozLMrP2" role="3uHU7w">
+                              <node concept="2OqwBi" id="7FiuozLLEAr" role="3uHU7B">
+                                <node concept="2OqwBi" id="7FiuozLLzKT" role="2Oq$k0">
+                                  <node concept="30H73N" id="7FiuozLLz$a" role="2Oq$k0" />
+                                  <node concept="2Xjw5R" id="7FiuozLLEg9" role="2OqNvi">
+                                    <node concept="1xMEDy" id="7FiuozLLEgb" role="1xVPHs">
+                                      <node concept="chp4Y" id="7FiuozLLEkr" role="ri$Ld">
+                                        <ref role="cht4Q" to="ag4z:576xgYabWSD" resolve="StateMachine" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3TrcHB" id="7FiuozLLEQU" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="7FiuozLLFbl" role="3uHU7w">
+                                <property role="Xl_RC" value="Printer" />
+                              </node>
+                            </node>
+                            <node concept="17R0WA" id="7FiuozLMqID" role="3uHU7B">
+                              <node concept="2OqwBi" id="7FiuozLLqSY" role="3uHU7B">
+                                <node concept="30H73N" id="7FiuozLLqp$" role="2Oq$k0" />
+                                <node concept="3TrcHB" id="7FiuozLLudm" role="2OqNvi">
+                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="7FiuozLLxHI" role="3uHU7w">
+                                <property role="Xl_RC" value="Printing" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="2EixSi" id="7FiuozLtmPE" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="7FiuozLLpjh" role="383Ya9">
+              <node concept="356sEF" id="7FiuozLLpji" role="356sEH">
+                <property role="TrG5h" value="pass" />
+              </node>
+              <node concept="2EixSi" id="7FiuozLLpjj" role="2EinRH" />
             </node>
             <node concept="356sEK" id="7FiuozLtmPG" role="383Ya9">
               <node concept="2EixSi" id="7FiuozLtmPJ" role="2EinRH" />
@@ -882,6 +933,42 @@
         </node>
         <node concept="356sEQ" id="7FiuozLtmR2" role="383Ya9">
           <property role="333NGx" value="    " />
+          <node concept="356sEK" id="7FiuozLNa8g" role="383Ya9">
+            <node concept="356WMU" id="7FiuozLNar4" role="356sEH">
+              <node concept="356sEK" id="7FiuozLNar5" role="383Ya9">
+                <node concept="356sEF" id="7FiuozLNar6" role="356sEH">
+                  <property role="TrG5h" value="self.maxMediaLevel = 5" />
+                </node>
+                <node concept="2EixSi" id="7FiuozLNar7" role="2EinRH" />
+              </node>
+              <node concept="356sEK" id="7FiuozLNar8" role="383Ya9">
+                <node concept="356sEF" id="7FiuozLNar9" role="356sEH">
+                  <property role="TrG5h" value="self.mediaLevel = self.maxMediaLevel" />
+                </node>
+                <node concept="2EixSi" id="7FiuozLNara" role="2EinRH" />
+              </node>
+              <node concept="1W57fq" id="7FiuozLNarb" role="lGtFl">
+                <node concept="3IZrLx" id="7FiuozLNarc" role="3IZSJc">
+                  <node concept="3clFbS" id="7FiuozLNard" role="2VODD2">
+                    <node concept="3clFbF" id="7FiuozLNare" role="3cqZAp">
+                      <node concept="17R0WA" id="7FiuozLNarg" role="3clFbG">
+                        <node concept="2OqwBi" id="7FiuozLNarh" role="3uHU7B">
+                          <node concept="30H73N" id="7FiuozLNarj" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="7FiuozLNarn" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="7FiuozLNaro" role="3uHU7w">
+                          <property role="Xl_RC" value="Printer" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2EixSi" id="7FiuozLNa8i" role="2EinRH" />
+          </node>
           <node concept="356sEK" id="7FiuozLtmQY" role="383Ya9">
             <node concept="356sEF" id="7FiuozLtmQZ" role="356sEH">
               <property role="TrG5h" value="PrintRoomSimulatorComponent.__init__(self, " />
@@ -913,6 +1000,43 @@
           <node concept="356sEK" id="7FiuozLtmR3" role="383Ya9">
             <node concept="2EixSi" id="7FiuozLtmR6" role="2EinRH" />
           </node>
+        </node>
+        <node concept="356sEK" id="7FiuozLN8Au" role="383Ya9">
+          <node concept="356WMU" id="7FiuozLN9iV" role="356sEH">
+            <node concept="356sEK" id="7FiuozLN9iW" role="383Ya9">
+              <node concept="356sEF" id="7FiuozLN9iX" role="356sEH">
+                <property role="TrG5h" value="def print(self):" />
+              </node>
+              <node concept="2EixSi" id="7FiuozLN9iY" role="2EinRH" />
+            </node>
+            <node concept="356sEK" id="7FiuozLN9iZ" role="383Ya9">
+              <node concept="373pV1" id="7FiuozLNa8c" role="356sEH" />
+              <node concept="356sEF" id="7FiuozLN9j0" role="356sEH">
+                <property role="TrG5h" value="self.mediaLevel = self.mediaLevel - 0.05" />
+              </node>
+              <node concept="2EixSi" id="7FiuozLN9j1" role="2EinRH" />
+            </node>
+            <node concept="1W57fq" id="7FiuozLN9j2" role="lGtFl">
+              <node concept="3IZrLx" id="7FiuozLN9j3" role="3IZSJc">
+                <node concept="3clFbS" id="7FiuozLN9j4" role="2VODD2">
+                  <node concept="3clFbF" id="7FiuozLN9j5" role="3cqZAp">
+                    <node concept="17R0WA" id="7FiuozLN9j7" role="3clFbG">
+                      <node concept="2OqwBi" id="7FiuozLN9j8" role="3uHU7B">
+                        <node concept="30H73N" id="7FiuozLN9ja" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="7FiuozLN9je" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="7FiuozLN9jf" role="3uHU7w">
+                        <property role="Xl_RC" value="Printer" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2EixSi" id="7FiuozLN8Aw" role="2EinRH" />
         </node>
         <node concept="356WMU" id="7FiuozLtVNf" role="383Ya9">
           <node concept="356sEK" id="7FiuozLtmR7" role="383Ya9">

@@ -53,7 +53,7 @@
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="7FiuozLGGAc" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.TriggerPrinting()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportTriggerPrinting()" />
       </node>
     </node>
     <node concept="3rUkGx" id="7FiuozLJmNa" role="3rUkGW">
@@ -61,7 +61,7 @@
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="7FiuozLJmND" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.StopPrinting()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportStopPrinting()" />
       </node>
     </node>
   </node>
@@ -72,7 +72,7 @@
       <ref role="3rUkGN" node="7FiuozLteR2" resolve="ProvidingMedia" />
       <ref role="3rUkGL" node="7FiuozLteR2" resolve="ProvidingMedia" />
       <node concept="2bm7ok" id="7FiuozLB0kX" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.RefillMedia()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportRefillMedia()" />
       </node>
     </node>
     <node concept="3rUkGy" id="7FiuozLteR0" role="3rUkGT">
@@ -114,11 +114,6 @@
       <node concept="2bm7ok" id="7FiuozLDEBb" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.environment.animatePrintCarriage(True)" />
       </node>
-    </node>
-    <node concept="3rUkGx" id="7FiuozLteRn" role="3rUkGW">
-      <ref role="3rUkHe" node="7FiuozLteR7" resolve="TriggerPrinting" />
-      <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
-      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
     </node>
     <node concept="3rUkGx" id="7FiuozLteRq" role="3rUkGW">
       <ref role="3rUkHe" node="7FiuozLteR9" resolve="RefillMedia" />
