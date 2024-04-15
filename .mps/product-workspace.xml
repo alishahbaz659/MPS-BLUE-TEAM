@@ -1,0 +1,51 @@
+<project version="4">
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Usages" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Bookmarks" order="1" />
+      <window_info anchor="bottom" id="Model Checker" order="1" />
+      <window_info anchor="bottom" id="Menu Trace" order="1" />
+      <window_info anchor="bottom" id="Migration" order="1" />
+      <window_info anchor="bottom" id="Spin Verification Result" order="1" />
+      <window_info anchor="bottom" id="Comment Tags" order="1" />
+      <window_info anchor="bottom" id="Generation Tracer" order="1" />
+      <window_info anchor="bottom" id="Module Dependencies" order="1" />
+      <window_info anchor="bottom" id="Console" order="1" />
+      <window_info anchor="bottom" id="Inspector" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Chart" order="1" />
+      <window_info anchor="bottom" id="ToDo" order="1" />
+      <window_info anchor="bottom" id="Documentation" order="1" />
+      <window_info anchor="bottom" id="Shadow Models" order="1" />
+      <window_info anchor="bottom" id="RefactoringView" order="1" />
+      <window_info anchor="bottom" id="Node Explorer" order="1" />
+      <window_info anchor="bottom" id="mbeddr TODO" order="1" />
+      <window_info anchor="bottom" id="CBMC Raw Results" order="1" />
+      <window_info anchor="bottom" id="Trace Explorer" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Classpath Explorer" order="1" />
+      <window_info anchor="bottom" id="Cell Explorer" order="1" />
+      <window_info anchor="bottom" id="Dependencies Viewer" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="right" id="Visualization" order="1" />
+      <window_info anchor="right" id="Diagram Palette" order="1" />
+      <window_info anchor="right" id="Hierarchy" order="1" />
+      <window_info anchor="right" id="Class Hierarchy" order="1" />
+      <window_info anchor="right" id="Variabiity Consistency Verification" order="1" />
+      <window_info anchor="right" id="Search" order="1" />
+      <window_info anchor="right" id="Tree" order="1" />
+      <window_info anchor="right" id="Context Actions 2" order="1" />
+      <window_info anchor="right" id="Language Vis" order="1" />
+      <window_info anchor="right" id="Context Actions" order="1" />
+      <window_info anchor="right" id="CBMC Lifted Results" order="1" />
+      <window_info anchor="right" id="Spin Lifted Results" order="1" />
+      <window_info anchor="right" id="Typesystem Trace" order="1" />
+      <window_info anchor="right" id="Visualisation" order="1" />
+      <window_info anchor="right" id="Generated Artifacts Reviewer" order="1" />
+      <window_info anchor="right" id="Graph Viewer" order="1" />
+    </layout>
+  </component>
+</project>
