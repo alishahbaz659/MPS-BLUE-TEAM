@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="" />
+    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="skeleton for statemachines">
+      <change afterPath="$PROJECT_DIR$/../.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python_Implementation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/generated" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +27,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="751dcd08-fbc3-45b9-9de0-d8dacd213182/r:ee761b1a-c6bc-4459-b5d1-4214790b8881(TempModule751dcd08-fbc3-45b9-9de0-d8dacd213182/ConsoleModel_6630505453500)">
+            <model ref="21306a8d-2bc2-4f50-be90-6f73b7c3cfab/r:5f0a866e-8610-4d30-8798-88c86f130830(TempModule21306a8d-2bc2-4f50-be90-6f73b7c3cfab/ConsoleModel_517249216262400)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -41,11 +47,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="1q8nCPjFXLs">
-                <node concept="3balQm" id="1q8nCPjFXLt" role="aymYE" />
-                <node concept="2Clz$F" id="1q8nCPjFXLu" role="aymYO" />
-                <node concept="2_V_lH" id="1q8nCPjFXLv" role="1PhJh3">
-                  <ref role="2_V_lI" node="1q8nCPjFXLu" resolve="CommandHolder" />
+              <node concept="aymSD" id="7FiuozLteRv">
+                <node concept="3balQm" id="7FiuozLteRw" role="aymYE" />
+                <node concept="2Clz$F" id="7FiuozLteRx" role="aymYO" />
+                <node concept="2_V_lH" id="7FiuozLteRy" role="1PhJh3">
+                  <ref role="2_V_lI" node="7FiuozLteRx" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -54,7 +60,25 @@
       </list>
     </option>
   </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -170,6 +194,42 @@
               <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -178,6 +238,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3177cfff-838c-465b-a99f-733b3486f4ac(com.dslfoundry.statemachine.structure) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -196,20 +312,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,6 +324,18 @@
               <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
@@ -229,10 +343,10 @@
         <subPane />
       </pane>
       <pane id="Scope" />
+      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.projectview.views.plugin.ByConcept">
         <subPane />
       </pane>
-      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -245,15 +359,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\20235625\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="" />
@@ -262,6 +379,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712847305861</updated>
     </task>
+    <task id="LOCAL-00001" summary="skeleton for statemachines">
+      <option name="closed" value="true" />
+      <created>1713174408648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713174408648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -275,5 +401,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="skeleton for statemachines" />
+    <option name="LAST_COMMIT_MESSAGE" value="skeleton for statemachines" />
   </component>
 </project>
