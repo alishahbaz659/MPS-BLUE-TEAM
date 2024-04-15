@@ -1,9 +1,9 @@
 from IPrintRoomSimulator import *
 
 # generate the import dependencies to generated components here
-from PrinterCompBase import *
-from OperatorPanelCompBase import *
-from MediaRefillStackCompBase import *
+from PrinterComp import *
+from OperatorPanel import *
+from MediaRefillStack import *
 
 
 class PrintRoomSimulatorImpl(IPrintRoomSimulator):

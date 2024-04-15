@@ -80,7 +80,7 @@ class PrinterComp(PrintRoomSimulatorComponent):
 		self.stateMachine.tick("refillMedia")
 
 	def print(self):
-		self.mediaLevel = self.mediaLevel - 0.1
+		self.mediaLevel = self.mediaLevel - 0.01
 
 	# def registerRequiredInterface(self, component, interface):
 	# 	self.requiredInterfaces[component] = interface
