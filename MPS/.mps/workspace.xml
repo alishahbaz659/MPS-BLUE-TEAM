@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackCompBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelCompBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/PrintRoomSimulatorImpl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/PrintRoomSimulatorImpl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/PrinterComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/PrinterCompBase.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,26 +192,6 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a80b0361-bab8-4926-b20e-ea9bfafd6d1d(com.dslfoundry.statemachine.sandbox@transient60)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -230,11 +214,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a80b0361-bab8-4926-b20e-ea9bfafd6d1d(com.dslfoundry.statemachine.sandbox@transient60)" />
+              <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a80b0361-bab8-4926-b20e-ea9bfafd6d1d/i:10000001(com.dslfoundry.statemachine.sandbox@transient60/com.dslfoundry.statemachine.sandbox@0) in null" />
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +260,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -293,6 +295,20 @@
               <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,7 +316,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
+          <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
@@ -317,42 +333,12 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a80b0361-bab8-4926-b20e-ea9bfafd6d1d(com.dslfoundry.statemachine.sandbox@transient60)" />
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a80b0361-bab8-4926-b20e-ea9bfafd6d1d/i:10000002(com.dslfoundry.statemachine.sandbox@transient60/com.dslfoundry.statemachine.sandbox@2_0) in null" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3177cfff-838c-465b-a99f-733b3486f4ac(com.dslfoundry.statemachine.structure) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5892543464250265134" />
+              <option name="myItemId" value="8850269846809953044" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -422,7 +408,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713182720816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="guard and event code generation working">
+      <option name="closed" value="true" />
+      <created>1713183346032</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713183346032</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -439,6 +433,7 @@
     <MESSAGE value="skeleton for statemachines" />
     <MESSAGE value="guards and actions entered in the modeling langage" />
     <MESSAGE value="oopsies" />
-    <option name="LAST_COMMIT_MESSAGE" value="oopsies" />
+    <MESSAGE value="guard and event code generation working" />
+    <option name="LAST_COMMIT_MESSAGE" value="guard and event code generation working" />
   </component>
 </project>

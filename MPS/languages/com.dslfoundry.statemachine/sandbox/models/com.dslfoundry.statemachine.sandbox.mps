@@ -36,44 +36,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="3rUkGA" id="6G5RZuzRtNc">
-    <property role="TrG5h" value="Sample" />
-    <node concept="3rUkGx" id="6G5RZuzRuyR" role="3rUkGW">
-      <ref role="3rUkGN" node="6G5RZuzRtNf" resolve="Off" />
-      <ref role="3rUkGL" node="6G5RZuzRtNh" resolve="On" />
-      <ref role="3rUkHe" node="6G5RZuzRuiV" resolve="Turn On" />
-    </node>
-    <node concept="3rUkGx" id="6G5RZuzRuyT" role="3rUkGW">
-      <ref role="3rUkGN" node="6G5RZuzRtNh" resolve="On" />
-      <ref role="3rUkGL" node="6G5RZuzRtNf" resolve="Off" />
-      <ref role="3rUkHe" node="6G5RZuzRuiX" resolve="Turn Off" />
-    </node>
-    <node concept="3rUkGx" id="6G5RZuzRuyW" role="3rUkGW">
-      <ref role="3rUkGN" node="6G5RZuzRtNh" resolve="On" />
-      <ref role="3rUkGL" node="6G5RZuzRtNk" resolve="Failure" />
-      <ref role="3rUkHe" node="6G5RZuzRuj0" resolve="Malfunction Detected" />
-    </node>
-    <node concept="3rUkGy" id="6G5RZuzRuiV" role="3rUkGT">
-      <property role="TrG5h" value="Turn On" />
-    </node>
-    <node concept="3rUkGy" id="6G5RZuzRuiX" role="3rUkGT">
-      <property role="TrG5h" value="Turn Off" />
-    </node>
-    <node concept="3rUkGy" id="6G5RZuzRuj0" role="3rUkGT">
-      <property role="TrG5h" value="Malfunction Detected" />
-    </node>
-    <node concept="3rUkGz" id="6G5RZuzRtNf" role="3rUkGY">
-      <property role="TrG5h" value="Off" />
-      <property role="38Q0cJ" value="true" />
-    </node>
-    <node concept="3rUkGz" id="6G5RZuzRtNh" role="3rUkGY">
-      <property role="TrG5h" value="On" />
-      <property role="38Q0cJ" value="false" />
-    </node>
-    <node concept="3rUkGz" id="6G5RZuzRtNk" role="3rUkGY">
-      <property role="TrG5h" value="Failure" />
-    </node>
-  </node>
   <node concept="3rUkGA" id="7FiuozLteQS">
     <property role="TrG5h" value="OperatorPanel" />
     <node concept="3rUkGy" id="7FiuozLteQT" role="3rUkGT">
@@ -87,6 +49,9 @@
       <ref role="3rUkHe" node="7FiuozLteQT" resolve="BlueButtonPressed" />
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <node concept="2bm7ok" id="7FiuozLGGAc" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.TriggerPrinting()" />
+      </node>
     </node>
   </node>
   <node concept="3rUkGA" id="7FiuozLteQZ">
