@@ -87,9 +87,6 @@
       <ref role="3rUkHe" node="7FiuozLteQT" resolve="BlueButtonPressed" />
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
-      <node concept="2bm7ok" id="7FiuozLC4s9" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStatemachine.envComp.environment.printerComp.TriggerPrinting()" />
-      </node>
     </node>
   </node>
   <node concept="3rUkGA" id="7FiuozLteQZ">

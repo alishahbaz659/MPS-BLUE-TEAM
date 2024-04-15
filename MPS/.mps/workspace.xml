@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="skeleton for statemachines">
+    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen.caches/com/dslfoundry/statemachine/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/EditorAspectDescriptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/Transition_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/Transition_EditorBuilder_a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/editor/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/source_gen/com/dslfoundry/statemachine/structure/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,55 +196,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3177cfff-838c-465b-a99f-733b3486f4ac(com.dslfoundry.statemachine.structure) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps]" />
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
+              <option name="myItemId" value="3f5ea716-18e5-4110-91f8-a89e89cd18da(com.dslfoundry.statemachine.sandbox@transient53)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
+              <option name="myItemId" value="3f5ea716-18e5-4110-91f8-a89e89cd18da/i:10000001(com.dslfoundry.statemachine.sandbox@transient53/com.dslfoundry.statemachine.sandbox@0) in null" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,15 +234,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
+              <option name="myItemId" value="3f5ea716-18e5-4110-91f8-a89e89cd18da(com.dslfoundry.statemachine.sandbox@transient53)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemId" value="3f5ea716-18e5-4110-91f8-a89e89cd18da/i:10000002(com.dslfoundry.statemachine.sandbox@transient53/com.dslfoundry.statemachine.sandbox@2_0) in null" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,11 +248,13 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3d9ac230-a5d6-4221-a744-872d577f6142(com.dslfoundry.statemachine.editor) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.editor.mps]" />
+              <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +264,17 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3f5ea716-18e5-4110-91f8-a89e89cd18da(com.dslfoundry.statemachine.sandbox@transient53)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,6 +296,34 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <SELECTED>
             <PATH_ELEMENT>
               <option name="myItemId" value="MPS" />
@@ -347,6 +331,22 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8850269846809953044" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -400,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713174408648</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="guards and actions entered in the modeling langage">
+      <option name="closed" value="true" />
+      <created>1713182482460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713182482460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UsagesViewTool">
@@ -415,6 +423,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="skeleton for statemachines" />
-    <option name="LAST_COMMIT_MESSAGE" value="skeleton for statemachines" />
+    <MESSAGE value="guards and actions entered in the modeling langage" />
+    <option name="LAST_COMMIT_MESSAGE" value="guards and actions entered in the modeling langage" />
   </component>
 </project>
