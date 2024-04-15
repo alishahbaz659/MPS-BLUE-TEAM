@@ -9,7 +9,9 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_Action;
   private ConceptPresentation props_Event;
+  private ConceptPresentation props_Guard;
   private ConceptPresentation props_State;
   private ConceptPresentation props_StateMachine;
   private ConceptPresentation props_Transition;
@@ -19,6 +21,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.Action:
+        if (props_Action == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Action");
+          props_Action = cpb.create();
+        }
+        return props_Action;
       case LanguageConceptSwitch.Event:
         if (props_Event == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -26,6 +35,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Event = cpb.create();
         }
         return props_Event;
+      case LanguageConceptSwitch.Guard:
+        if (props_Guard == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Guard");
+          props_Guard = cpb.create();
+        }
+        return props_Guard;
       case LanguageConceptSwitch.State:
         if (props_State == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

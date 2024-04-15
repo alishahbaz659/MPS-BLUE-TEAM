@@ -121,9 +121,41 @@
     </node>
     <node concept="1TJgyj" id="576xgYabWT1" role="1TKVEi">
       <property role="IQ2ns" value="5892543464250265153" />
-      <property role="20kJfa" value="trigger" />
-      <property role="20lbJX" value="fLJekj4/_1" />
+      <property role="20kJfa" value="triggeringEvent" />
       <ref role="20lvS9" node="576xgYabWSH" resolve="Event" />
+    </node>
+    <node concept="1TJgyj" id="7FiuozLyxj0" role="1TKVEi">
+      <property role="IQ2ns" value="8850269846811317440" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="guard" />
+      <ref role="20lvS9" node="7FiuozLyxiX" resolve="Guard" />
+    </node>
+    <node concept="1TJgyj" id="7FiuozLyxj5" role="1TKVEi">
+      <property role="IQ2ns" value="8850269846811317445" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7FiuozLywYs" resolve="Action" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7FiuozLywYs">
+    <property role="EcuMT" value="8850269846811316124" />
+    <property role="TrG5h" value="Action" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="7FiuozLywYv" role="1TKVEl">
+      <property role="IQ2nx" value="8850269846811316127" />
+      <property role="TrG5h" value="action" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7FiuozLyxiX">
+    <property role="EcuMT" value="8850269846811317437" />
+    <property role="TrG5h" value="Guard" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="7FiuozLyxiY" role="1TKVEl">
+      <property role="IQ2nx" value="8850269846811317438" />
+      <property role="TrG5h" value="condition" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
