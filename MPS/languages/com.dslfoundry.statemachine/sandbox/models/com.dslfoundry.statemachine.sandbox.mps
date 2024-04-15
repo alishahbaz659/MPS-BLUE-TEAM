@@ -66,5 +66,69 @@
       <property role="TrG5h" value="Failure" />
     </node>
   </node>
+  <node concept="3rUkGA" id="7FiuozLteQS">
+    <property role="TrG5h" value="OperatorPanel" />
+    <node concept="3rUkGy" id="7FiuozLteQT" role="3rUkGT">
+      <property role="TrG5h" value="BlueButtonPressed" />
+    </node>
+    <node concept="3rUkGz" id="7FiuozLteQV" role="3rUkGY">
+      <property role="38Q0cJ" value="true" />
+      <property role="TrG5h" value="ReceivingCommands" />
+    </node>
+    <node concept="3rUkGx" id="7FiuozLteQX" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLteQT" resolve="BlueButtonPressed" />
+      <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
+    </node>
+  </node>
+  <node concept="3rUkGA" id="7FiuozLteQZ">
+    <property role="TrG5h" value="MediaRefillStack" />
+    <node concept="3rUkGy" id="7FiuozLteR0" role="3rUkGT">
+      <property role="TrG5h" value="MediaRefillPressed" />
+    </node>
+    <node concept="3rUkGz" id="7FiuozLteR2" role="3rUkGY">
+      <property role="38Q0cJ" value="true" />
+      <property role="TrG5h" value="ProvidingMedia" />
+    </node>
+    <node concept="3rUkGx" id="7FiuozLteR4" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLteR0" resolve="MediaRefillPressed" />
+      <ref role="3rUkGN" node="7FiuozLteR2" resolve="ProvidingMedia" />
+      <ref role="3rUkGL" node="7FiuozLteR2" resolve="ProvidingMedia" />
+    </node>
+  </node>
+  <node concept="3rUkGA" id="7FiuozLteR6">
+    <property role="TrG5h" value="Printer" />
+    <node concept="3rUkGy" id="7FiuozLteR7" role="3rUkGT">
+      <property role="TrG5h" value="TriggerPrinting" />
+    </node>
+    <node concept="3rUkGy" id="7FiuozLteR9" role="3rUkGT">
+      <property role="TrG5h" value="RefillMedia" />
+    </node>
+    <node concept="3rUkGz" id="7FiuozLteRc" role="3rUkGY">
+      <property role="38Q0cJ" value="true" />
+      <property role="TrG5h" value="Stopped" />
+    </node>
+    <node concept="3rUkGz" id="7FiuozLteRe" role="3rUkGY">
+      <property role="TrG5h" value="Printing" />
+    </node>
+    <node concept="3rUkGz" id="7FiuozLteRh" role="3rUkGY">
+      <property role="TrG5h" value="RefillNeeded" />
+    </node>
+    <node concept="3rUkGx" id="7FiuozLteRl" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLteR7" resolve="TriggerPrinting" />
+      <ref role="3rUkGN" node="7FiuozLteRc" resolve="Stopped" />
+      <ref role="3rUkGL" node="7FiuozLteRe" resolve="Printing" />
+    </node>
+    <node concept="3rUkGx" id="7FiuozLteRn" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLteR7" resolve="TriggerPrinting" />
+      <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
+      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+    </node>
+    <node concept="3rUkGx" id="7FiuozLteRq" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLteR9" resolve="RefillMedia" />
+      <ref role="3rUkGN" node="7FiuozLteRh" resolve="RefillNeeded" />
+      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+    </node>
+  </node>
 </model>
 
