@@ -32,3 +32,8 @@ class PrintRoomSimulatorImpl(IPrintRoomSimulator):
         IPrintRoomSimulator.reportMediaRefillPressed(self)
         if self.isActiveUserInput():
             self.mediaRefillStackComp.reportMediaRefillPressed()
+
+    def reportRedButtonPressed(self):
+        IPrintRoomSimulator.reportRedButtonPressed(self)
+        if self.isActiveUserInput():
+            self.operatorPanelComp.reportRedButtonPressed()

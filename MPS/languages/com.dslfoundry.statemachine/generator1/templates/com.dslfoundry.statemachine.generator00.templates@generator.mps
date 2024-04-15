@@ -270,6 +270,21 @@
           </node>
           <node concept="356sEQ" id="7FiuozLtmPF" role="383Ya9">
             <property role="333NGx" value="    " />
+            <node concept="356sEQ" id="7FiuozLKi8n" role="383Ya9">
+              <property role="333NGx" value="  " />
+              <node concept="356sEK" id="7FiuozLKhYD" role="383Ya9">
+                <node concept="2EixSi" id="7FiuozLKhYF" role="2EinRH" />
+                <node concept="356sEF" id="7FiuozLKhYX" role="356sEH">
+                  <property role="TrG5h" value="self.contextStateMachine.envComp.print()" />
+                </node>
+              </node>
+              <node concept="356sEK" id="7FiuozLKi89" role="383Ya9">
+                <node concept="356sEF" id="7FiuozLKi8a" role="356sEH">
+                  <property role="TrG5h" value="print(&quot;Printing::do: medialevel =&quot; + str(self.contextStateMachine.envComp.mediaLevel)" />
+                </node>
+                <node concept="2EixSi" id="7FiuozLKi8b" role="2EinRH" />
+              </node>
+            </node>
             <node concept="356sEK" id="7FiuozLtmPB" role="383Ya9">
               <node concept="356sEF" id="7FiuozLtmPC" role="356sEH">
                 <property role="TrG5h" value="pass" />

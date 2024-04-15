@@ -141,7 +141,7 @@
   <node concept="1TIwiD" id="7FiuozLywYs">
     <property role="EcuMT" value="8850269846811316124" />
     <property role="TrG5h" value="Action" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7FiuozLywYv" role="1TKVEl">
       <property role="IQ2nx" value="8850269846811316127" />
       <property role="TrG5h" value="action" />
@@ -151,7 +151,7 @@
   <node concept="1TIwiD" id="7FiuozLyxiX">
     <property role="EcuMT" value="8850269846811317437" />
     <property role="TrG5h" value="Guard" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7FiuozLyxiY" role="1TKVEl">
       <property role="IQ2nx" value="8850269846811317438" />
       <property role="TrG5h" value="condition" />

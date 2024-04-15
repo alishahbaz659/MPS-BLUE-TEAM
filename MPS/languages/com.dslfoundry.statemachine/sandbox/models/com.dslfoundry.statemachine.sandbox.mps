@@ -41,6 +41,9 @@
     <node concept="3rUkGy" id="7FiuozLteQT" role="3rUkGT">
       <property role="TrG5h" value="BlueButtonPressed" />
     </node>
+    <node concept="3rUkGy" id="7FiuozLJmN7" role="3rUkGT">
+      <property role="TrG5h" value="RedButtonPressed" />
+    </node>
     <node concept="3rUkGz" id="7FiuozLteQV" role="3rUkGY">
       <property role="38Q0cJ" value="true" />
       <property role="TrG5h" value="ReceivingCommands" />
@@ -51,6 +54,14 @@
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="7FiuozLGGAc" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.TriggerPrinting()" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="7FiuozLJmNa" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLJmN7" resolve="RedButtonPressed" />
+      <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <node concept="2bm7ok" id="7FiuozLJmND" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.StopPrinting()" />
       </node>
     </node>
   </node>
@@ -77,6 +88,9 @@
     <node concept="3rUkGy" id="7FiuozLteR7" role="3rUkGT">
       <property role="TrG5h" value="TriggerPrinting" />
     </node>
+    <node concept="3rUkGy" id="7FiuozLJmNe" role="3rUkGT">
+      <property role="TrG5h" value="StopPrinting" />
+    </node>
     <node concept="3rUkGy" id="7FiuozLteR9" role="3rUkGT">
       <property role="TrG5h" value="RefillMedia" />
     </node>
@@ -95,7 +109,7 @@
       <ref role="3rUkGN" node="7FiuozLteRc" resolve="Stopped" />
       <ref role="3rUkGL" node="7FiuozLteRe" resolve="Printing" />
       <node concept="2bm7ok" id="7FiuozLC4sj" role="2bm6Pd">
-        <property role="2bm7on" value="print(&quot;Stopped: triggerPrint&quot;)" />
+        <property role="2bm7on" value="print(&quot;Stopped: triggerPrinting&quot;)" />
       </node>
       <node concept="2bm7ok" id="7FiuozLDEBb" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.environment.animatePrintCarriage(True)" />
@@ -110,6 +124,9 @@
       <ref role="3rUkHe" node="7FiuozLteR9" resolve="RefillMedia" />
       <ref role="3rUkGN" node="7FiuozLteRh" resolve="RefillNeeded" />
       <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+      <node concept="2bm7ok" id="7FiuozLK0Tq" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.mediaLevel = self.contextStateMachine.envComp.maxMediaLevel" />
+      </node>
     </node>
     <node concept="3rUkGx" id="7FiuozLC4s0" role="3rUkGW">
       <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
@@ -126,6 +143,17 @@
       <ref role="3rUkGL" node="7FiuozLteRh" resolve="RefillNeeded" />
       <node concept="2bm6OP" id="7FiuozLDEBe" role="2bm6P8">
         <property role="2bm6OQ" value="self.contextStateMachine.envComp.mediaLevel &lt;= 0" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="7FiuozLJmNi" role="3rUkGW">
+      <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
+      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+      <ref role="3rUkHe" node="7FiuozLJmNe" resolve="StopPrinting" />
+      <node concept="2bm7ok" id="7FiuozLJmNu" role="2bm6Pd">
+        <property role="2bm7on" value="print(&quot;Stopped: StopPrinting&quot;)" />
+      </node>
+      <node concept="2bm7ok" id="7FiuozLJmNw" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.animatePrintCarriage(False)" />
       </node>
     </node>
   </node>
