@@ -1,9 +1,9 @@
 from IPrintRoomSimulator import *
 
 # generate the import dependencies to generated components here
-from PrinterCompBase import *
-from OperatorPanelCompBase import *
-from MediaRefillStackCompBase import *
+from PrinterComp import *
+from OperatorPanel import *
+from MediaRefillStack import *
 
 
 class PrintRoomSimulatorImpl(IPrintRoomSimulator):
@@ -12,23 +12,23 @@ class PrintRoomSimulatorImpl(IPrintRoomSimulator):
 
         # generate Component initialization and wiring here
         self.printerComp = PrinterComp(self)
-        self.operatorPanelComp = OperatorPanelComp(self)
-        self.mediaRefillStackComp = MediaRefillStackComp(self)
+        self.operatorPanel = OperatorPanel(self)
+        self.mediaRefillStack = MediaRefillStack(self)
 
     def tick(self):
         IPrintRoomSimulator.tick(self)
 
         # generate the tick calls to each component here
         self.printerComp.tick()
-        self.operatorPanelComp.tick()
-        self.mediaRefillStackComp.tick()
+        self.operatorPanel.tick()
+        self.MediaRefillStack.tick()
 
     def reportBlueButtonPressed(self):
         IPrintRoomSimulator.reportBlueButtonPressed(self)
         if self.isActiveUserInput():
-            self.operatorPanelComp.reportBlueButtonPressed()
+            self.operatorPanel.reportBlueButtonPressed()
 
     def reportMediaRefillPressed(self):
         IPrintRoomSimulator.reportMediaRefillPressed(self)
         if self.isActiveUserInput():
-            self.mediaRefillStackComp.reportMediaRefillPressed()
+            self.MediaRefillStack.reportMediaRefillPressed()
