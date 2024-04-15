@@ -57,6 +57,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d217a007-8d41-4aa6-ac74-694d256fd0e6" />
+        <option name="url" value="https://github.com/alishahbaz659/MPS-BLUE-TEAM.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
       <array>
@@ -162,28 +170,18 @@
               <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,6 +200,16 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,19 +219,7 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7711816191640984780" />
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
