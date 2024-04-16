@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b8dc3eae-a3d6-4d25-896c-3783eff87ca7(PrintingRoomDomainLanguage.constraints)">
+<model ref="r:b8dc3eae-a3d6-4d25-896c-3783eff87ca7(Components.constraints)">
   <persistence version="9" />
   <languages>
     <use id="5dae8159-ab99-46bb-a40d-0cee30ee7018" name="jetbrains.mps.lang.constraints.rules.kinds" version="0" />

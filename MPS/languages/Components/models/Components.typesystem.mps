@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:d5e469dc-62de-4b0e-9288-370fd62d92e9(PrintingRoomDomainLanguage.typesystem)">
+<model ref="r:d5e469dc-62de-4b0e-9288-370fd62d92e9(Components.typesystem)">
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
