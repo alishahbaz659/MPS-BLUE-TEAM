@@ -91,6 +91,9 @@
     <node concept="3rUkGy" id="7FiuozLJmN7" role="3rUkGT">
       <property role="TrG5h" value="RedButtonPressed" />
     </node>
+    <node concept="3rUkGy" id="3kwV7ZumEmU" role="3rUkGT">
+      <property role="TrG5h" value="GreenButtonPressed" />
+    </node>
     <node concept="3rUkGz" id="7FiuozLteQV" role="3rUkGY">
       <property role="38Q0cJ" value="true" />
       <property role="TrG5h" value="ReceivingCommands" />
@@ -111,6 +114,14 @@
         <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportStopPrinting()" />
       </node>
     </node>
+    <node concept="3rUkGx" id="3kwV7ZumEmO" role="3rUkGW">
+      <ref role="3rUkHe" node="3kwV7ZumEmU" resolve="GreenButtonPressed" />
+      <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
+      <node concept="2bm7ok" id="3kwV7ZumEn0" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportAutoRefill()" />
+      </node>
+    </node>
   </node>
   <node concept="3rUkGA" id="7FiuozLteR6">
     <property role="TrG5h" value="PrinterStateMachine" />
@@ -123,6 +134,9 @@
     <node concept="3rUkGy" id="7FiuozLteR9" role="3rUkGT">
       <property role="TrG5h" value="RefillMedia" />
     </node>
+    <node concept="3rUkGy" id="3kwV7ZumGSq" role="3rUkGT">
+      <property role="TrG5h" value="AutoRefill" />
+    </node>
     <node concept="3rUkGz" id="7FiuozLteRc" role="3rUkGY">
       <property role="38Q0cJ" value="true" />
       <property role="TrG5h" value="Stopped" />
@@ -132,6 +146,9 @@
     </node>
     <node concept="3rUkGz" id="7FiuozLteRh" role="3rUkGY">
       <property role="TrG5h" value="RefillNeeded" />
+    </node>
+    <node concept="3rUkGz" id="3kwV7ZuokXM" role="3rUkGY">
+      <property role="TrG5h" value="AutoRefilled" />
     </node>
     <node concept="3rUkGx" id="7FiuozLteRl" role="3rUkGW">
       <ref role="3rUkHe" node="7FiuozLteR7" resolve="TriggerPrinting" />
@@ -150,6 +167,13 @@
       <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
       <node concept="2bm7ok" id="7FiuozLK0Tq" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.mediaLevel = self.contextStateMachine.envComp.maxMediaLevel" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7ZuokYd" role="3rUkGW">
+      <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
+      <ref role="3rUkGL" node="3kwV7ZuokXM" resolve="AutoRefilled" />
+      <node concept="2bm6OP" id="3kwV7ZuokY_" role="2bm6P8">
+        <property role="2bm6OQ" value="self.contextStateMachine.envComp.autoRefill" />
       </node>
     </node>
     <node concept="3rUkGx" id="7FiuozLC4s0" role="3rUkGW">
@@ -174,7 +198,7 @@
       <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
       <ref role="3rUkHe" node="7FiuozLJmNe" resolve="StopPrinting" />
       <node concept="2bm7ok" id="7FiuozLJmNu" role="2bm6Pd">
-        <property role="2bm7on" value="print(&quot;Stopped: StopPrinting&quot;)" />
+        <property role="2bm7on" value="print(&quot;Printing: StopPrinting&quot;)" />
       </node>
       <node concept="2bm7ok" id="7FiuozLVvlc" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.environment.animatePrintCarriage(False)" />
@@ -188,6 +212,59 @@
       </node>
       <node concept="2bm7ok" id="_3zO7m0sCS" role="2bm6Pd">
         <property role="2bm7on" value="self.contextStateMachine.envComp.print()" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7ZumGSv" role="3rUkGW">
+      <ref role="3rUkHe" node="3kwV7ZumGSq" resolve="AutoRefill" />
+      <ref role="3rUkGN" node="7FiuozLteRc" resolve="Stopped" />
+      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+      <node concept="2bm7ok" id="3kwV7ZumGTk" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.autoRefill = not self.contextStateMachine.envComp.autoRefill" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7ZumGTm" role="3rUkGW">
+      <ref role="3rUkHe" node="3kwV7ZumGSq" resolve="AutoRefill" />
+      <ref role="3rUkGN" node="7FiuozLteRe" resolve="Printing" />
+      <ref role="3rUkGL" node="7FiuozLteRe" resolve="Printing" />
+      <node concept="2bm7ok" id="3kwV7ZumGTn" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.autoRefill = not self.contextStateMachine.envComp.autoRefill" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7ZumGVK" role="3rUkGW">
+      <ref role="3rUkHe" node="3kwV7ZumGSq" resolve="AutoRefill" />
+      <ref role="3rUkGN" node="7FiuozLteRh" resolve="RefillNeeded" />
+      <ref role="3rUkGL" node="7FiuozLteRh" resolve="RefillNeeded" />
+      <node concept="2bm7ok" id="3kwV7ZumGVL" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.autoRefill = not self.contextStateMachine.envComp.autoRefill" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7Zuol07" role="3rUkGW">
+      <ref role="3rUkGN" node="3kwV7ZuokXM" resolve="AutoRefilled" />
+      <ref role="3rUkGL" node="7FiuozLteRe" resolve="Printing" />
+      <ref role="3rUkHe" node="3kwV7ZumGSq" resolve="AutoRefill" />
+      <node concept="2bm7ok" id="3kwV7Zuol0_" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.autoRefill = not self.contextStateMachine.envComp.autoRefill" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7Zuolh$" role="3rUkGW">
+      <ref role="3rUkHe" node="7FiuozLJmNe" resolve="StopPrinting" />
+      <ref role="3rUkGN" node="3kwV7ZuokXM" resolve="AutoRefilled" />
+      <ref role="3rUkGL" node="7FiuozLteRc" resolve="Stopped" />
+      <node concept="2bm7ok" id="3kwV7Zuolie" role="2bm6Pd">
+        <property role="2bm7on" value="print(&quot;AutoRefill: StopPrinting&quot;)" />
+      </node>
+      <node concept="2bm7ok" id="3kwV7Zuolif" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.animatePrintCarriage(False)" />
+      </node>
+    </node>
+    <node concept="3rUkGx" id="3kwV7ZuokYB" role="3rUkGW">
+      <ref role="3rUkGN" node="3kwV7ZuokXM" resolve="AutoRefilled" />
+      <ref role="3rUkGL" node="3kwV7ZuokXM" resolve="AutoRefilled" />
+      <node concept="2bm6OP" id="3kwV7ZuokZ1" role="2bm6P8">
+        <property role="2bm6OQ" value="self.contextStateMachine.envComp.autoRefill" />
+      </node>
+      <node concept="2bm7ok" id="3kwV7Zuol05" role="2bm6Pd">
+        <property role="2bm7on" value="self.contextStateMachine.envComp.autoPrint()" />
       </node>
     </node>
   </node>
@@ -228,6 +305,14 @@
           <property role="Xl_RC" value="self.stateMachine.tick('RedButtonPressed')" />
         </node>
       </node>
+      <node concept="2b2g8$" id="3kwV7ZumEll" role="2b2g8T">
+        <property role="2bfhLK" value="true" />
+        <property role="2bfhLM" value="true" />
+        <property role="TrG5h" value="GreenButton" />
+        <node concept="Xl_RD" id="3kwV7ZumElB" role="2b8kpb">
+          <property role="Xl_RC" value="self.stateMachine.tick('GreenButtonPressed')" />
+        </node>
+      </node>
     </node>
     <node concept="2bb6vF" id="7FiuozM0SId" role="2bb6vw">
       <ref role="2bb6vG" node="7FiuozLVQab" resolve="Printer" />
@@ -264,10 +349,23 @@
       <node concept="2b2g8$" id="7FiuozLWNYR" role="2b2g8T">
         <property role="TrG5h" value="print" />
         <node concept="Xl_RD" id="_3zO7m0tke" role="2b8kpb">
-          <property role="Xl_RC" value="print('Printing: ' + str(self.mediaLevel))" />
+          <property role="Xl_RC" value="print('Printing: ' + str(self.mediaLevel) + 'autorefill?' + str(self.autoRefill) )" />
         </node>
         <node concept="Xl_RD" id="7FiuozLXiJb" role="2b8kpb">
           <property role="Xl_RC" value="self.mediaLevel = self.mediaLevel - 0.05" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="3kwV7Zuoktx" role="2b2g8T">
+        <property role="TrG5h" value="AutoRefill" />
+        <property role="2bfhLK" value="true" />
+        <node concept="Xl_RD" id="3kwV7ZuoktK" role="2b8kpb">
+          <property role="Xl_RC" value="self.stateMachine.tick('AutoRefill')" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="3kwV7ZuokZC" role="2b2g8T">
+        <property role="TrG5h" value="autoPrint" />
+        <node concept="Xl_RD" id="3kwV7Zuol00" role="2b8kpb">
+          <property role="Xl_RC" value="print('Auto Printing: ' + str(self.mediaLevel) + 'autorefill?' + str(self.autoRefill) )" />
         </node>
       </node>
     </node>
