@@ -14,5 +14,9 @@ class PrinterComp(PrintRoomSimulatorComponent):
     def reportRefillMedia(self):
         self.stateMachine.tick('RefillMedia')
     def print(self):
-        print('Printing: ' + str(self.mediaLevel))
+        print('Printing: ' + str(self.mediaLevel) + 'autorefill?' + str(self.autoRefill) )
         self.mediaLevel = self.mediaLevel - 0.05
+    def reportAutoRefill(self):
+        self.stateMachine.tick('AutoRefill')
+    def autoPrint(self):
+        print('Auto Printing: ' + str(self.mediaLevel) + 'autorefill?' + str(self.autoRefill) )

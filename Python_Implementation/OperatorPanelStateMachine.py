@@ -24,6 +24,9 @@ class ReceivingCommands(PrintRoomSimulatorState):
         if input == "RedButtonPressed":
           self.contextStateMachine.envComp.environment.printerComp.reportStopPrinting()
           return self.contextStateMachine.ReceivingCommands
+        if input == "GreenButtonPressed":
+          self.contextStateMachine.envComp.environment.printerComp.reportAutoRefill()
+          return self.contextStateMachine.ReceivingCommands
         return self.contextStateMachine.ReceivingCommands
 
 

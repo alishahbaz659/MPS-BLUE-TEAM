@@ -37,3 +37,9 @@ class PrintRoomSimulatorImpl(IPrintRoomSimulator):
         IPrintRoomSimulator.reportRedButtonPressed(self)
         if self.isActiveUserInput():
             self.operatorPanelComp.reportRedButtonPressed()
+
+
+    def reportGreenButtonPressed(self):
+        IPrintRoomSimulator.reportGreenButtonPressed(self)
+        if self.isActiveUserInput():
+            self.operatorPanelComp.reportGreenButtonPressed()

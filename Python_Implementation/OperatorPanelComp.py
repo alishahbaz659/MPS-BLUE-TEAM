@@ -8,3 +8,5 @@ class OperatorPanelComp(PrintRoomSimulatorComponent):
         self.stateMachine.tick('BlueButtonPressed')
     def reportRedButtonPressed(self):
         self.stateMachine.tick('RedButtonPressed')
+    def reportGreenButtonPressed(self):
+        self.stateMachine.tick('GreenButtonPressed')
