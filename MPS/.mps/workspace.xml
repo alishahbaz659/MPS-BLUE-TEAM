@@ -13,14 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="fixed the biggest oopsie &amp; red button works. But it's all so crappy lol">
-      <change beforePath="$PROJECT_DIR$/languages/Components.sandbox/models/Components.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components.sandbox/models/Components.sandbox.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Components/generator/templates/Components.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components/generator/templates/Components.generator.templates@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Components/models/Components.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components/models/Components.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Components/models/Components.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components/models/Components.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Implementation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackStateMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackStateMachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelStateMachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelStateMachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Implementation/PrintRoomSimulatorImpl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/PrintRoomSimulatorImpl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +34,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="64936519-ab91-444f-a1df-680a2897562e/r:c475962e-aea2-40f4-a231-a1205d6515e7(TempModule64936519-ab91-444f-a1df-680a2897562e/ConsoleModel_598372951181100)">
+            <model ref="989ff5d8-ea82-44e0-a0e0-1e8acf6efa1d/r:d99661dc-545e-4b48-89de-a479cb0fe38c(TempModule989ff5d8-ea82-44e0-a0e0-1e8acf6efa1d/ConsoleModel_87397545071300)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -61,11 +54,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="_3zO7lXTlQ">
-                <node concept="3balQm" id="_3zO7lXTlR" role="aymYE" />
-                <node concept="2Clz$F" id="_3zO7lXTlS" role="aymYO" />
-                <node concept="2_V_lH" id="_3zO7lXTlT" role="1PhJh3">
-                  <ref role="2_V_lI" node="_3zO7lXTlS" resolve="CommandHolder" />
+              <node concept="aymSD" id="5NiF$5sbawp">
+                <node concept="3balQm" id="5NiF$5sbawq" role="aymYE" />
+                <node concept="2Clz$F" id="5NiF$5sbawr" role="aymYO" />
+                <node concept="2_V_lH" id="5NiF$5sbaws" role="1PhJh3">
+                  <ref role="2_V_lI" node="5NiF$5sbawr" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -228,58 +221,6 @@
               <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:bdda4157-d4b0-4d68-84b2-3d1d09c1620f(Components.structure) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components/models/Components.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:9f6b61a2-a92f-4008-917e-f5ae34aa0982(Components.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components.sandbox/models/Components.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -290,8 +231,120 @@
               <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:bdda4157-d4b0-4d68-84b2-3d1d09c1620f(Components.structure) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/Components/models/Components.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
-          <SELECTED>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:9ab76ad5-8d37-4ffe-9f05-1bf22db2489d(com.dslfoundry.statemachine.typesystem) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.typesystem.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="5911bb3b-3d05-4ce0-816c-d2296c72e1e3" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:00dee476-b810-40e7-8263-3765e181272c(com.dslfoundry.statemachine.sandbox) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/sandbox/models/com.dslfoundry.statemachine.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
@@ -305,11 +358,77 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:9f6b61a2-a92f-4008-917e-f5ae34aa0982(Components.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components.sandbox/models/Components.sandbox.mps]" />
+              <option name="myItemId" value="r:9f6b61a2-a92f-4008-917e-f5ae34aa0982(Components.sandbox) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/Components.sandbox/models/Components.sandbox.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="8850269846809931192" />
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3177cfff-838c-465b-a99f-733b3486f4ac(com.dslfoundry.statemachine.structure) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3177cfff-838c-465b-a99f-733b3486f4ac(com.dslfoundry.statemachine.structure) in IdeaFile[path: D:/MPS-BLUE-TEAM/MPS/languages/com.dslfoundry.statemachine/models/com.dslfoundry.statemachine.structure.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </SELECTED>
@@ -319,10 +438,10 @@
         <subPane />
       </pane>
       <pane id="Scope" />
+      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.projectview.views.plugin.ByConcept">
         <subPane />
       </pane>
-      <pane id="FileSystem" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
