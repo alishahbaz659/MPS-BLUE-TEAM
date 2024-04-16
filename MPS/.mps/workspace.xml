@@ -12,26 +12,18 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/Components.sandbox/models/Components.sandbox.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/generator/templates/Components.generator.templates@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/models/Components.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/models/Components.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/models/Components.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/models/Components.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Components/models/Components.typesystem.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+    <list default="true" id="0bd67d64-eaf8-4c6a-9b22-7ab6df6ade4e" name="Changes" comment="fixed the biggest oopsie &amp; red button works. But it's all so crappy lol">
+      <change afterPath="$PROJECT_DIR$/../Python_Implementation/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage.sandbox/PrintingRoomDomainLanguage.sandbox.msd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage.sandbox/models/PrintingRoomDomainLanguage.sandbox.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/PrintingRoomDomainLanguage.mpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/generator/templates/PrintingRoomDomainLanguage.generator.templates@generator.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/models/PrintingRoomDomainLanguage.behavior.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/models/PrintingRoomDomainLanguage.constraints.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/models/PrintingRoomDomainLanguage.editor.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/models/PrintingRoomDomainLanguage.structure.mps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/PrintingRoomDomainLanguage/models/PrintingRoomDomainLanguage.typesystem.mps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Components.sandbox/models/Components.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components.sandbox/models/Components.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Components/generator/templates/Components.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Components/generator/templates/Components.generator.templates@generator.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackComp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/MediaRefillStackStateMachineComp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelComp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/OperatorPanelStateMachineComp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/PrinterComp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Implementation/PrinterComp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_Implementation/PrinterStateMachineComp.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,130 +235,102 @@
               <option name="myItemId" value="Components" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:ade27451-35ec-49e8-90b6-f7b4e4c61a84(com.dslfoundry.statemachine.generator00.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/com.dslfoundry.statemachine/generator1/templates/com.dslfoundry.statemachine.generator00.templates@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dac36cdf-b925-46cf-8a2c-2b6a1b73035c(com.dslfoundry.statemachine)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.dslfoundry.statemachine.generator00" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MPS" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:9f6b61a2-a92f-4008-917e-f5ae34aa0982(Components.sandbox) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components.sandbox/models/Components.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:9ae2c41b-0e35-4ce5-aa1e-62f60d81b789(Components.editor) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components/models/Components.editor.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:bdda4157-d4b0-4d68-84b2-3d1d09c1620f(Components.structure) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components/models/Components.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:2c07f06b-d991-4a01-9378-3dc20009f47c(Components.generator.templates@generator) in IdeaFile[path: D:/TUE/ST/Meta Programming Systems/assignment/Blue/MPS/languages/Components/generator/templates/Components.generator.templates@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="392c8eeb-f33f-43fd-8dbe-454479b3ab34(Components)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components.generator" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MPS" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="9bd74ab6-4529-4ca0-8fa8-ae01bf50ec24" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Components" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>

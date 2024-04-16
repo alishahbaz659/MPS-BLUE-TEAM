@@ -263,6 +263,9 @@
       </node>
       <node concept="2b2g8$" id="7FiuozLWNYR" role="2b2g8T">
         <property role="TrG5h" value="print" />
+        <node concept="Xl_RD" id="_3zO7m0tke" role="2b8kpb">
+          <property role="Xl_RC" value="print('Printing: ' + str(self.mediaLevel))" />
+        </node>
         <node concept="Xl_RD" id="7FiuozLXiJb" role="2b8kpb">
           <property role="Xl_RC" value="self.mediaLevel = self.mediaLevel - 0.05" />
         </node>

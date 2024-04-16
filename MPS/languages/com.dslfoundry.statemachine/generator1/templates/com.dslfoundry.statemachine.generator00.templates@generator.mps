@@ -161,7 +161,7 @@
   </node>
   <node concept="356sEV" id="7FiuozLtkck">
     <property role="TrG5h" value="map_StateMachine" />
-    <property role="3Le9LX" value="Comp.py" />
+    <property role="3Le9LX" value=".py" />
     <node concept="356WMU" id="7FiuozLtmOK" role="356KY_">
       <node concept="356sEK" id="7FiuozLtmOL" role="383Ya9">
         <node concept="356sEF" id="7FiuozLtmOM" role="356sEH">

@@ -58,9 +58,6 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
-      <concept id="1114706874351" name="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" flags="ln" index="29HgVG">
-        <child id="1168024447342" name="sourceNodeQuery" index="3NFExx" />
-      </concept>
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
@@ -93,7 +90,6 @@
       <concept id="1167756080639" name="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" flags="in" index="3zFVjK" />
       <concept id="1167945743726" name="jetbrains.mps.lang.generator.structure.IfMacro_Condition" flags="in" index="3IZrLx" />
       <concept id="1167951910403" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" flags="in" index="3JmXsc" />
-      <concept id="1168024337012" name="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" flags="in" index="3NFfHV" />
       <concept id="1118773211870" name="jetbrains.mps.lang.generator.structure.IfMacro" flags="ln" index="1W57fq">
         <child id="1167945861827" name="conditionFunction" index="3IZSJc" />
       </concept>
@@ -194,24 +190,37 @@
     <property role="TrG5h" value="map_Component" />
     <property role="3Le9LX" value="Comp.py" />
     <node concept="356WMU" id="7FiuozLR6Le" role="356KY_">
-      <node concept="356sEK" id="7FiuozLXEn4" role="383Ya9">
-        <node concept="2EixSi" id="7FiuozLXEn6" role="2EinRH" />
-        <node concept="356sEF" id="7FiuozM2$YK" role="356sEH">
-          <property role="TrG5h" value="stateMachineCode" />
-          <node concept="29HgVG" id="7FiuozM3qiR" role="lGtFl">
-            <node concept="3NFfHV" id="7FiuozM3qiS" role="3NFExx">
-              <node concept="3clFbS" id="7FiuozM3qiT" role="2VODD2">
-                <node concept="3clFbF" id="7FiuozM3qiZ" role="3cqZAp">
-                  <node concept="2OqwBi" id="7FiuozM3qiU" role="3clFbG">
-                    <node concept="3TrEf2" id="7FiuozM3qiX" role="2OqNvi">
-                      <ref role="3Tt5mk" to="axwt:7FiuozLVmn2" resolve="stateMachine" />
+      <node concept="356sEK" id="_3zO7m0C23" role="383Ya9">
+        <node concept="2EixSi" id="_3zO7m0C25" role="2EinRH" />
+        <node concept="356sEF" id="_3zO7m0BZu" role="356sEH">
+          <property role="TrG5h" value="from " />
+        </node>
+        <node concept="356sEF" id="_3zO7m0Dyp" role="356sEH">
+          <property role="TrG5h" value="statemachinefile" />
+          <node concept="17Uvod" id="_3zO7m0Dyu" role="lGtFl">
+            <property role="2qtEX9" value="name" />
+            <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+            <node concept="3zFVjK" id="_3zO7m0Dyv" role="3zH0cK">
+              <node concept="3clFbS" id="_3zO7m0Dyw" role="2VODD2">
+                <node concept="3clFbF" id="_3zO7m0Dz0" role="3cqZAp">
+                  <node concept="2OqwBi" id="_3zO7m0Eue" role="3clFbG">
+                    <node concept="2OqwBi" id="_3zO7m0E00" role="2Oq$k0">
+                      <node concept="30H73N" id="_3zO7m0DyZ" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="_3zO7m0EfR" role="2OqNvi">
+                        <ref role="3Tt5mk" to="axwt:7FiuozLVmn2" resolve="stateMachine" />
+                      </node>
                     </node>
-                    <node concept="30H73N" id="7FiuozM3qiY" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="_3zO7m0EI4" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+        </node>
+        <node concept="356sEF" id="_3zO7m0Dyq" role="356sEH">
+          <property role="TrG5h" value=" import *" />
         </node>
       </node>
       <node concept="356sEK" id="7FiuozLR6Lf" role="383Ya9">
