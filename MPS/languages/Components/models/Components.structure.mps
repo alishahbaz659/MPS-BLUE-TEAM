@@ -187,5 +187,37 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="_3zO7m1DAe">
+    <property role="EcuMT" value="667534682707368334" />
+    <property role="TrG5h" value="System" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="_3zO7m1DAf" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="_3zO7m1DAh" role="1TKVEi">
+      <property role="IQ2ns" value="667534682707368337" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="components" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="_3zO7m4zzf" resolve="ComponentReference" />
+    </node>
+    <node concept="1TJgyj" id="_3zO7m1DAj" role="1TKVEi">
+      <property role="IQ2ns" value="667534682707368339" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="interface" />
+      <ref role="20lvS9" node="7FiuozLQRIC" resolve="Interface" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="_3zO7m4zzf">
+    <property role="EcuMT" value="667534682708129999" />
+    <property role="TrG5h" value="ComponentReference" />
+    <node concept="1TJgyj" id="_3zO7m4zzg" role="1TKVEi">
+      <property role="20lbJX" value="fLJekj4/1" />
+      <property role="IQ2ns" value="667534682708130000" />
+      <property role="20kJfa" value="component" />
+      <ref role="20lvS9" node="7FiuozLJmml" resolve="Component" />
+    </node>
+  </node>
 </model>
 

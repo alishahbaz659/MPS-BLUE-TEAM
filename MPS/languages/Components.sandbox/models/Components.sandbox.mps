@@ -34,6 +34,13 @@
         <child id="8850269846814680477" name="properties" index="2brLKl" />
       </concept>
       <concept id="667534682706458214" name="Components.structure.PropertyBool" flags="ng" index="3sIN$B" />
+      <concept id="667534682707368334" name="Components.structure.System" flags="ng" index="3vhhrf">
+        <child id="667534682707368337" name="components" index="3vhhrg" />
+        <child id="667534682707368339" name="interface" index="3vhhri" />
+      </concept>
+      <concept id="667534682708129999" name="Components.structure.ComponentReference" flags="ng" index="3vkrue">
+        <reference id="667534682708130000" name="component" index="3vkruh" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -72,7 +79,7 @@
       <ref role="3rUkGN" node="7FiuozLteR2" resolve="ProvidingMedia" />
       <ref role="3rUkGL" node="7FiuozLteR2" resolve="ProvidingMedia" />
       <node concept="2bm7ok" id="7FiuozLB0kX" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportRefillMedia()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.PrinterComp.reportRefillMedia()" />
       </node>
     </node>
     <node concept="3rUkGy" id="7FiuozLteR0" role="3rUkGT">
@@ -103,7 +110,7 @@
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="7FiuozLGGAc" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportTriggerPrinting()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.PrinterComp.reportTriggerPrinting()" />
       </node>
     </node>
     <node concept="3rUkGx" id="7FiuozLJmNa" role="3rUkGW">
@@ -111,7 +118,7 @@
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="7FiuozLJmND" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportStopPrinting()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.PrinterComp.reportStopPrinting()" />
       </node>
     </node>
     <node concept="3rUkGx" id="3kwV7ZumEmO" role="3rUkGW">
@@ -119,7 +126,7 @@
       <ref role="3rUkGN" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <ref role="3rUkGL" node="7FiuozLteQV" resolve="ReceivingCommands" />
       <node concept="2bm7ok" id="3kwV7ZumEn0" role="2bm6Pd">
-        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.printerComp.reportAutoRefill()" />
+        <property role="2bm7on" value="self.contextStateMachine.envComp.environment.PrinterComp.reportAutoRefill()" />
       </node>
     </node>
   </node>
@@ -379,6 +386,91 @@
     </node>
     <node concept="3sIN$B" id="_3zO7m01ev" role="2brLKl">
       <property role="TrG5h" value="autoRefill" />
+    </node>
+  </node>
+  <node concept="3vhhrf" id="_3zO7m4ilH">
+    <property role="TrG5h" value="PrintRoomSimulatorImpl" />
+    <node concept="2b2g8w" id="_3zO7m4ilI" role="3vhhri">
+      <node concept="2b2g8$" id="_3zO7m4zz8" role="2b2g8T">
+        <property role="TrG5h" value="tick" />
+        <node concept="Xl_RD" id="_3zO7m5OaD" role="2b8kpb">
+          <property role="Xl_RC" value="IPrintRoomSimulator.tick(self)" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7m5Ocv" role="2b8kpb">
+          <property role="Xl_RC" value="self.PrinterComp.tick()" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7m5OcO" role="2b8kpb">
+          <property role="Xl_RC" value="self.OperatorPanelComp.tick()" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7m5Oda" role="2b8kpb">
+          <property role="Xl_RC" value="self.MediaRefillStackComp.tick()" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="_3zO7mcuUi" role="2b2g8T">
+        <property role="TrG5h" value="BlueButton" />
+        <property role="2bfhLK" value="true" />
+        <property role="2bfhLM" value="true" />
+        <node concept="Xl_RD" id="_3zO7mcuUj" role="2b8kpb">
+          <property role="Xl_RC" value="IPrintRoomSimulator.reportBlueButtonPressed(self)" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuUk" role="2b8kpb">
+          <property role="Xl_RC" value="if self.isActiveUserInput():" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuUl" role="2b8kpb">
+          <property role="Xl_RC" value="    self.OperatorPanelComp.reportBlueButtonPressed()" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="_3zO7mcuSw" role="2b2g8T">
+        <property role="TrG5h" value="RedButton" />
+        <property role="2bfhLK" value="true" />
+        <property role="2bfhLM" value="true" />
+        <node concept="Xl_RD" id="_3zO7mcuSF" role="2b8kpb">
+          <property role="Xl_RC" value="IPrintRoomSimulator.reportRedButtonPressed(self)" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuTu" role="2b8kpb">
+          <property role="Xl_RC" value="if self.isActiveUserInput():" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuU2" role="2b8kpb">
+          <property role="Xl_RC" value="    self.OperatorPanelComp.reportRedButtonPressed()" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="_3zO7mdtW8" role="2b2g8T">
+        <property role="TrG5h" value="GreenButton" />
+        <property role="2bfhLK" value="true" />
+        <property role="2bfhLM" value="true" />
+        <node concept="Xl_RD" id="_3zO7mdtW9" role="2b8kpb">
+          <property role="Xl_RC" value="IPrintRoomSimulator.reportGreenButtonPressed(self)" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mdtWa" role="2b8kpb">
+          <property role="Xl_RC" value="if self.isActiveUserInput():" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mdtWb" role="2b8kpb">
+          <property role="Xl_RC" value="    self.OperatorPanelComp.reportGreenButtonPressed()" />
+        </node>
+      </node>
+      <node concept="2b2g8$" id="_3zO7mcuUY" role="2b2g8T">
+        <property role="TrG5h" value="MediaRefill" />
+        <property role="2bfhLK" value="true" />
+        <property role="2bfhLM" value="true" />
+        <node concept="Xl_RD" id="_3zO7mcuUZ" role="2b8kpb">
+          <property role="Xl_RC" value="IPrintRoomSimulator.reportMediaRefillPressed(self)" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuV0" role="2b8kpb">
+          <property role="Xl_RC" value="if self.isActiveUserInput():" />
+        </node>
+        <node concept="Xl_RD" id="_3zO7mcuV1" role="2b8kpb">
+          <property role="Xl_RC" value="    self.MediaRefillStackComp.reportMediaRefillPressed()" />
+        </node>
+      </node>
+    </node>
+    <node concept="3vkrue" id="_3zO7m59Vg" role="3vhhrg">
+      <ref role="3vkruh" node="7FiuozLVvld" resolve="MediaRefillStack" />
+    </node>
+    <node concept="3vkrue" id="_3zO7m59Vi" role="3vhhrg">
+      <ref role="3vkruh" node="7FiuozLVQ9Y" resolve="OperatorPanel" />
+    </node>
+    <node concept="3vkrue" id="_3zO7m5v2q" role="3vhhrg">
+      <ref role="3vkruh" node="7FiuozLVQab" resolve="Printer" />
     </node>
   </node>
 </model>

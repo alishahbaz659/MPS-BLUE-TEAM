@@ -1,9 +1,9 @@
 from IPrintRoomSimulator import *
 
 # generate the import dependencies to generated components here
-from PrinterComp import *
-from OperatorPanelComp import *
 from MediaRefillStackComp import *
+from OperatorPanelComp import *
+from PrinterComp import *
 
 
 class PrintRoomSimulatorImpl(IPrintRoomSimulator):
@@ -11,35 +11,32 @@ class PrintRoomSimulatorImpl(IPrintRoomSimulator):
         IPrintRoomSimulator.__init__(self, allowUserInputs)
 
         # generate Component initialization and wiring here
-        self.printerComp = PrinterComp(self)
-        self.operatorPanelComp = OperatorPanelComp(self)
-        self.mediaRefillStackComp = MediaRefillStackComp(self)
+        self.MediaRefillStackComp = MediaRefillStackComp(self)
+        self.OperatorPanelComp = OperatorPanelComp(self)
+        self.PrinterComp = PrinterComp(self)
 
     def tick(self):
         IPrintRoomSimulator.tick(self)
-
-        # generate the tick calls to each component here
-        self.printerComp.tick()
-        self.operatorPanelComp.tick()
-        self.mediaRefillStackComp.tick()
+        self.PrinterComp.tick()
+        self.OperatorPanelComp.tick()
+        self.MediaRefillStackComp.tick()
 
     def reportBlueButtonPressed(self):
         IPrintRoomSimulator.reportBlueButtonPressed(self)
         if self.isActiveUserInput():
-            self.operatorPanelComp.reportBlueButtonPressed()
-
-    def reportMediaRefillPressed(self):
-        IPrintRoomSimulator.reportMediaRefillPressed(self)
-        if self.isActiveUserInput():
-            self.mediaRefillStackComp.reportMediaRefillPressed()
+            self.OperatorPanelComp.reportBlueButtonPressed()
 
     def reportRedButtonPressed(self):
         IPrintRoomSimulator.reportRedButtonPressed(self)
         if self.isActiveUserInput():
-            self.operatorPanelComp.reportRedButtonPressed()
-
+            self.OperatorPanelComp.reportRedButtonPressed()
 
     def reportGreenButtonPressed(self):
         IPrintRoomSimulator.reportGreenButtonPressed(self)
         if self.isActiveUserInput():
-            self.operatorPanelComp.reportGreenButtonPressed()
+            self.OperatorPanelComp.reportGreenButtonPressed()
+
+    def reportMediaRefillPressed(self):
+        IPrintRoomSimulator.reportMediaRefillPressed(self)
+        if self.isActiveUserInput():
+            self.MediaRefillStackComp.reportMediaRefillPressed()

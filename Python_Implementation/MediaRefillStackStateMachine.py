@@ -19,7 +19,7 @@ class ProvidingMedia(PrintRoomSimulatorState):
 
     def next(self, input):
         if input == "MediaRefillPressed":
-          self.contextStateMachine.envComp.environment.printerComp.reportRefillMedia()
+          self.contextStateMachine.envComp.environment.PrinterComp.reportRefillMedia()
           return self.contextStateMachine.ProvidingMedia
         return self.contextStateMachine.ProvidingMedia
 

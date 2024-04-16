@@ -19,13 +19,13 @@ class ReceivingCommands(PrintRoomSimulatorState):
 
     def next(self, input):
         if input == "BlueButtonPressed":
-          self.contextStateMachine.envComp.environment.printerComp.reportTriggerPrinting()
+          self.contextStateMachine.envComp.environment.PrinterComp.reportTriggerPrinting()
           return self.contextStateMachine.ReceivingCommands
         if input == "RedButtonPressed":
-          self.contextStateMachine.envComp.environment.printerComp.reportStopPrinting()
+          self.contextStateMachine.envComp.environment.PrinterComp.reportStopPrinting()
           return self.contextStateMachine.ReceivingCommands
         if input == "GreenButtonPressed":
-          self.contextStateMachine.envComp.environment.printerComp.reportAutoRefill()
+          self.contextStateMachine.envComp.environment.PrinterComp.reportAutoRefill()
           return self.contextStateMachine.ReceivingCommands
         return self.contextStateMachine.ReceivingCommands
 
